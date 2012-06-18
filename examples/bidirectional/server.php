@@ -23,3 +23,4 @@ $server = new DNode\DNode($loop, new Converter());
 $server->listen(6060);
 
 $loop->run();
+?>
